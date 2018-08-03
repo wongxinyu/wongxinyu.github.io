@@ -2379,7 +2379,7 @@ exports.default = function (obj, keys) {
 /* 611 */
 /***/ (function(module, exports) {
 
-module.exports = {"owner":"axetroy","repo":"blog","todo_repo":"todo","github_client_id":"b8257841dd7ca5eef2aa","github_client_secret":"4da33dd6fcb0a01d395945ad18613ecf9c12079e"}
+module.exports = {"owner":"wongxinyu","repo":"blog","todo_repo":"todo","github_client_id":"de8aa8c67b7fce1f0824","github_client_secret":"7debb2ab8476cf024a3d5f7691b060d63148efde"}
 
 /***/ }),
 /* 612 */
@@ -9272,7 +9272,7 @@ function load() {
 
   // If debug isn't set in LS, and we're in Electron, try to load $DEBUG
   if (!r && typeof process !== 'undefined' && 'env' in process) {
-    r = Object({"NODE_ENV":"production","PUBLIC_URL":"","REACT_APP_PUBLISH_DATE":"1533266276815"}).DEBUG;
+    r = Object({"NODE_ENV":"production","PUBLIC_URL":"","REACT_APP_PUBLISH_DATE":"1533276931029"}).DEBUG;
   }
 
   return r;
@@ -13433,7 +13433,7 @@ __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__axetroy_react_document_title___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__axetroy_react_document_title__);
 var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}/**
  * Created by axetroy on 17-4-6.
- */var _default=function(_Component){_inherits(_default,_Component);function _default(){var _ref;var _temp,_this,_ret;_classCallCheck(this,_default);for(var _len=arguments.length,args=Array(_len),_key=0;_key<_len;_key++){args[_key]=arguments[_key];}return _ret=(_temp=(_this=_possibleConstructorReturn(this,(_ref=_default.__proto__||Object.getPrototypeOf(_default)).call.apply(_ref,[this].concat(args))),_this),_this.PropTypes={title:__WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.array,revert:__WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.bool},_temp),_possibleConstructorReturn(_this,_ret);}_createClass(_default,[{key:"render",value:function render(){var title=(this.props.title||[]).concat(["Axetroy's NeverLand"]);var props=Object.assign({},this.props,{title:title});return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__axetroy_react_document_title___default.a,props);}}]);return _default;}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+ */var _default=function(_Component){_inherits(_default,_Component);function _default(){var _ref;var _temp,_this,_ret;_classCallCheck(this,_default);for(var _len=arguments.length,args=Array(_len),_key=0;_key<_len;_key++){args[_key]=arguments[_key];}return _ret=(_temp=(_this=_possibleConstructorReturn(this,(_ref=_default.__proto__||Object.getPrototypeOf(_default)).call.apply(_ref,[this].concat(args))),_this),_this.PropTypes={title:__WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.array,revert:__WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.bool},_temp),_possibleConstructorReturn(_this,_ret);}_createClass(_default,[{key:"render",value:function render(){var title=(this.props.title||[]).concat(["wongxinyu's blog"]);var props=Object.assign({},this.props,{title:title});return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__axetroy_react_document_title___default.a,props);}}]);return _default;}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /***/ }),
 /* 835 */
@@ -25213,4 +25213,4 @@ exports.push([module.i, ".post-list{cursor:pointer}.post-list:hover{background-c
 
 /***/ })
 ]));
-//# sourceMappingURL=0.779b727d.chunk.js.map
+//# sourceMappingURL=0.b363edcb.chunk.js.map

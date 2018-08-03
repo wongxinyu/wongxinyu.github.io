@@ -1750,7 +1750,7 @@ module.exports = class HttpError extends Error {
 /* 611 */
 /***/ (function(module, exports) {
 
-module.exports = {"owner":"axetroy","repo":"blog","todo_repo":"todo","github_client_id":"b8257841dd7ca5eef2aa","github_client_secret":"4da33dd6fcb0a01d395945ad18613ecf9c12079e"}
+module.exports = {"owner":"wongxinyu","repo":"blog","todo_repo":"todo","github_client_id":"de8aa8c67b7fce1f0824","github_client_secret":"7debb2ab8476cf024a3d5f7691b060d63148efde"}
 
 /***/ }),
 /* 612 */
@@ -8407,7 +8407,7 @@ function load() {
 
   // If debug isn't set in LS, and we're in Electron, try to load $DEBUG
   if (!r && typeof process !== 'undefined' && 'env' in process) {
-    r = Object({"NODE_ENV":"production","PUBLIC_URL":"","REACT_APP_PUBLISH_DATE":"1533266276815"}).DEBUG;
+    r = Object({"NODE_ENV":"production","PUBLIC_URL":"","REACT_APP_PUBLISH_DATE":"1533276931029"}).DEBUG;
   }
 
   return r;
@@ -10219,4 +10219,4 @@ exports.push([module.i, "ul.todo-list .todo-item{padding:.8rem .5rem;-o-text-ove
 
 /***/ })
 ]));
-//# sourceMappingURL=8.9a95d8bd.chunk.js.map
+//# sourceMappingURL=8.a4f91a87.chunk.js.map
